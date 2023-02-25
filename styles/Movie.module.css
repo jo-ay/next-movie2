@@ -1,0 +1,51 @@
+.list{
+    width:80%; margin: 0 auto;
+    text-align:center;
+}
+.list > h2{ font-size:  3rem; margin: 50px 0 ;}
+.list > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.list > div > figure{width:30%; margin-bottom: 5%;}
+.list > div > figure img{width:100%;}
+.list > div {
+    border-radius: 10px;
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+}
+.list > div input{
+    padding: 10px; margin: 0 5px; box-sizing: border-box;
+}
+.list > div input[type=submit]{
+    background: rgb(49, 47, 47);
+    border:1px solid;
+}
+.detail{
+    width:100%; height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail article{
+    background: #fff;
+    border-radius: 30px;
+    padding: 60px;
+    width:80%; margin: 0 auto;
+}
+.detail ul{
+    list-style: none;
+}
+
+/*
+echo "# next-movie" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/jo-ay/next-movie.git
+git push -u origin main
+*/
